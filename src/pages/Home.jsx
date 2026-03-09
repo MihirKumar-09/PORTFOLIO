@@ -1,3 +1,4 @@
+import AboutSection from "../components/AboutMe";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import ThemeToggle from "../components/ThemeToggle";
@@ -16,6 +17,7 @@ export default function Home() {
       {/* Main Container */}
       <main>
         <HeroSection />
+        <AboutSection />
       </main>
 
       {/* Footer */}
