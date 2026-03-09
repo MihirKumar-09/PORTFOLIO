@@ -1,4 +1,5 @@
 import AboutSection from "../components/AboutMe";
+import ContactSection from "../components/ContactSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import ProjectsSection from "../components/ProjectsSection";
@@ -22,6 +23,7 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
 
       {/* Footer */}
