@@ -1,6 +1,7 @@
 import AboutSection from "../components/AboutMe";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import SkillsSection from "../components/SkillsSection";
 import ThemeToggle from "../components/ThemeToggle";
 import StarBackground from "@/components/StarBackground";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutSection />
+        <SkillsSection />
       </main>
 
       {/* Footer */}
