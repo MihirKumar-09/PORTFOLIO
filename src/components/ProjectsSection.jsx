@@ -8,8 +8,8 @@ const projects = [
       "A responsive clone of Flipkart built with modern web technologies.",
     image: "projects/Project1.png",
     tags: ["React", "MongoDB", "Express"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://flipkart-clone-1-eay9.onrender.com/",
+    githubUrl: "https://github.com/MihirKumar-09/Flipkart-Clone",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const projects = [
       "A ChatGPT-inspired chat application with a clean UI and interactive messaging experience.",
     image: "/projects/Project2.png",
     tags: ["React", "MongoDB", "Node.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://novagpt-1.onrender.com/",
+    githubUrl: "https://github.com/MihirKumar-09/NovaGPT",
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ const projects = [
       "A vacation rental web app where users can explore and list travel accommodations.",
     image: "/projects/Project3.png",
     tags: ["HTML/CSS", "JavaScript", "EJS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://wanderlust-8pdf.onrender.com/listings",
+    githubUrl: "https://github.com/MihirKumar-09/Wanderlust",
   },
 ];
 
