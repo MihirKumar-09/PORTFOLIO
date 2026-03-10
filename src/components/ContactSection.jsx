@@ -11,21 +11,40 @@ import {
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function ContactSection() {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const serviceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+  const templateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
   const handleSubmit = (e) => {
     e.preventDefault();
-
     setIsSubmitting(true);
 
+    const form = e.target;
+
     setTimeout(() => {
-      toast({
-        title: "Message sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
-      });
-      setIsSubmitting(false);
+      emailjs.sendForm(serviceId, templateId, form, publicKey).then(
+        () => {
+          toast({
+            title: "Message sent!",
+            description:
+              "Thank you for your message. I'll get back to you soon.",
+          });
+          setIsSubmitting(false);
+          e.target.reset();
+        },
+        (error) => {
+          console.error(error);
+          toast({
+            title: "Error",
+            description: "Failed to send message.",
+          });
+          setIsSubmitting(false);
+        },
+      );
     }, 1500);
   };
   return (
