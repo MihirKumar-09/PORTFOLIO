@@ -1,16 +1,48 @@
-# React + Vite
+# 🚀 Personal Portfolio Website
+A modern developer portfolio website built to showcase my projects, technical skills, and experience. The goal of this portfolio is to present my work in a clean, interactive, and professional way while also serving as a central hub for recruiters and developers to explore my work.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌐 Live Website
+🔗 https://portfolio-iia9.onrender.com/
 
-Currently, two official plugins are available:
+# 📌 Overview
+⬇️ This portfolio highlights:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. My projects and technical skills
 
-## React Compiler
+2. My development experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Links to my GitHub, resume, and contact information
 
-## Expanding the ESLint configuration
+4. A clean and responsive UI designed for both desktop and mobile users
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5. The website focuses on performance, simplicity, and modern UI design.
+
+# ⚙️ Tech Stack
+👨🏻‍💻 Frontend
+• React.js
+
+• Tailwind CSS
+
+🔍 Tools & Libraries
+• Vite
+
+• EmailJS (for contact form)
+
+• Lucide Icons
+
+• Git & GitHub
+
+ # ✨ Features
+• Responsive modern UI
+
+• Smooth scrolling navigation
+
+• Interactive project showcase
+
+• Downloadable resume
+
+• Contact form integration
+
+• Optimized performance
+
+• Clean component-based architecture
