@@ -33,7 +33,7 @@ A modern developer portfolio website built to showcase my projects, technical sk
 • Git & GitHub
 
  # ✨ Features
-• Responsive modern UI
+• Responsive modern UI using Tailwind
 
 • Smooth scrolling navigation
 
